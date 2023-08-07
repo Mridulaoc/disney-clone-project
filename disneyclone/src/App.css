@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Sen';
+  background-color: #070414;
+  color: #f9f9f9;
+  overflow-x: hidden;
+}
+
+a{
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+ @media only screen and (min-width: 768px){
+  body{
+    font-size: 1.6rem;
+  }
+ }
+
+ @media only screen and (min-width:480px) and (max-width:768px){
+  body{
+    font-size: 1.5rem;
+      }
+  @media only screen and(max-width:479px){
+   body{
+    font-size: 1.4rem;
+   } 
+  }
+ }
